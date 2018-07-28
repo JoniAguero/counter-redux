@@ -25,9 +25,6 @@ export class Reset implements Action {
 }
 
 export type typeActions =
-    Incrementar |
-    Decrementar |
     Multiplicar |
-    Dividir     |
-    Reset;
+    Dividir     ;
 

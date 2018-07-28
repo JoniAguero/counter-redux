@@ -17,7 +17,7 @@ export class NietoComponent implements OnInit {
   }
 
   reset() {
-
+    this.store.dispatch({ type: RESET });
   }
 
 }
